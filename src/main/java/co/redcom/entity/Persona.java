@@ -20,6 +20,10 @@ public class Persona {
     @NotEmpty(message = "El nombre no puede ser nulo ")
     private String nombre;
 
+    @Column(nullable = false)
+    @NotEmpty(message = "el apellido no puede ser nulo")
+    private String apellido;
+
     //-----------------> Auditoria <--------------------
 
     /**
