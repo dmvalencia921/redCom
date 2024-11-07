@@ -17,7 +17,7 @@ public class Persona {
     private Integer idPersona;
 
     @Column(nullable = false)
-    @NotEmpty(message = "El nombre no puede ser nulo es obligatorio ")
+    @NotEmpty(message = "El nombre no puede ser nulo ")
     private String nombre;
 
     //-----------------> Auditoria <--------------------
