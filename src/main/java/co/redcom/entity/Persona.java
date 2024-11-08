@@ -12,6 +12,9 @@ import java.util.Date;
 @Table(schema = "redCom")
 public class Persona {
 
+    /**
+     * identificador de la clase
+     */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idPersona;
